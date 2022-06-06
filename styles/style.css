@@ -23,6 +23,11 @@ body {
 /* Header ###########*/
 
 .header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 
 }
 
@@ -57,4 +62,11 @@ body {
 
 .nav__link:hover {
     opacity: 1;
+}
+
+/* Intro ###########*/
+
+.intro {
+    height: 750px;
+
 }
